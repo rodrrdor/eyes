@@ -1,7 +1,7 @@
 const cnv = document.getElementById("canvas");
 const ctx = cnv.getContext("2d");
 const FPS = 60;
-const totalEyes = 5;
+const totalEyes = 13;
 var eyes = [], mouse, hip;
 cnv.width = window.innerWidth;
 cnv.height = window.innerHeight;
